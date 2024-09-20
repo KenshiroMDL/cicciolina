@@ -1,0 +1,27 @@
+
+# C2 File for Data Exfiltration with Discord Webhook
+
+# Webhook URL for Discord
+$webhook = "https://discord.com/api/webhooks/YOUR_WEBHOOK_URL";
+
+# Control commands
+function Activate-Payload {
+    # Code to activate the payload
+    Write-Host 'Payload Activated'
+}
+
+function Deactivate-Payload {
+    # Code to deactivate the payload
+    Write-Host 'Payload Deactivated'
+}
+
+function Kill-Payload {
+    # Code to kill the payload
+    Write-Host 'Payload Killed'
+}
+
+# Main loop to listen for commands
+while ($true) {
+    # Code to check for commands from the operator
+    Start-Sleep -Seconds 5
+}
